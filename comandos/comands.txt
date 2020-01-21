@@ -1,0 +1,44 @@
+//To know current directory
+pwd
+//To know files inside
+ls 
+//To start a new git proyect to control its versions
+git init
+//To know the state of our files
+git status
+//To add a new file to the stanging area
+git add nombre_del_archivo
+git status
+//To add all files to the stanging area
+git add .
+//To create a checkpoint of our code
+git commit 
+//On the special command promp we press key 'i' so we can write and press wq and enter to go out
+//To do commit without enter to the description area
+git commit -m "Decription"
+//To configure the email of our user
+git config --global user.email "correo@correo.com"
+//To configure the name of our user
+git config --global user.name "user_name"
+//To view all commits we've done
+git log
+//To discart all changes I've done before commits
+git checkout -- filename
+//To know the differences in the file
+git diff nombre_del_archivo
+//To view al branches
+git branch
+//To create a new branch o version
+git branch branch_name
+//To move to another branches
+git checkout branch_name
+//To add the repository to github
+git remote add origin https://github.com/tekilla501/repository_name
+//To remove a repository direction
+git remote remove origin
+//To insert the credentials to access to the repository
+git push -u origin master
+//To get the repository on the local computer
+git clone https://github.com/tekilla501/repository_name.git
+
+
