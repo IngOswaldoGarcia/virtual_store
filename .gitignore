@@ -5,6 +5,7 @@
 /.pnp
 .pnp.js
 /src/test
+/src/components/pagina.css
 
 # testing
 /coverage
